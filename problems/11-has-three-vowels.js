@@ -18,20 +18,7 @@ console.log(hasThreeVowels('go home'));         //  false
 
 let hasThreeVowels = function(string) {
 
-    let vowels = 'aeiouAEIOU';
-    let word = string.split('')
 
-
-    let newWord = word.reduce((acc, char) => {
-        if(vowels.includes(char) && !acc.includes(char)){
-            acc.push(char)
-        }
-        return acc
-    }, [])
-
-    console.log(newWord)
-
-    return newWord.length >= 3
 };
 console.log(hasThreeVowels('delicious'));       //  true
 console.log(hasThreeVowels('bootcamp prep'));   //  true

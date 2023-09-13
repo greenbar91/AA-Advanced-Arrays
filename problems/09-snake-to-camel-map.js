@@ -17,11 +17,7 @@ console.log(snakeToCamel('APp_ACADEMY_iS_cOol')); // 'AppAcademyIsCool'
 
 function snakeToCamel(str) {
 
-let newWords = str.split('_');
 
-let newSentence = newWords.map(word => word[0].toUpperCase().concat(word.slice(1).toLowerCase()))
-
-return newSentence.join('');
 }
 
 console.log(snakeToCamel('snakes_go_hiss')); // 'SnakesGoHiss'

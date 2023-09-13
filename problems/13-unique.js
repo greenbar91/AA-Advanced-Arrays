@@ -12,14 +12,7 @@ console.log(unique(['a', 'b', 'c', 'b'])); // ['a', 'b', 'c']
 
 let unique = function(array) {
 
-    let uniqueArr = array.reduce((acc, char)=> {
-        if (array.includes(char) && !acc.includes(char)){
-            acc.push(char)
-        }
-        return acc
-    }, [])
 
-    return uniqueArr
 
 }
 

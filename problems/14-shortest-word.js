@@ -14,7 +14,7 @@ console.log(shortestWord('do what you enjoy'));         // 'do'
 
 */
 
-let shortestWord = function(sentence){return sentence.split(' ').reduce((current, shortest) => (current.length < shortest.length ? current : shortest))}
+let shortestWord = function(sentence){}
 
 
 console.log(shortestWord('what a wonderful life'));     // 'a'
