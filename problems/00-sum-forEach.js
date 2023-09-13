@@ -12,7 +12,7 @@ console.log(sumForEach([])); // 0
 */
 
 let sumForEach = function(arr) {
-
+ testttttttttttttttttttttttttttttttt
 };
 
 console.log(sumForEach([4, 3, -1, 10])); // 16
